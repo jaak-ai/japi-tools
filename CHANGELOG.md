@@ -1,3 +1,10 @@
+# [1.0.0-dev.2](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2022-09-06)
+
+
+### Features
+
+* add package catcher, error handler to fiber ([0c0691b](https://github.com/jaak-ai/jaak-japi/commit/0c0691bc7b2e47c89fea27d6596752bd3a508e4d))
+
 # 1.0.0-dev.1 (2022-09-06)
 
 
