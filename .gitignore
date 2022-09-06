@@ -1,0 +1,8 @@
+# Folders
+.idea/
+.github/
+tmp/
+
+# Files
+main.go
+.air.toml
