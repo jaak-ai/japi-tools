@@ -1,3 +1,10 @@
+# [1.0.0-dev.3](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2022-09-06)
+
+
+### Bug Fixes
+
+* error handler catcher ([aa9b784](https://github.com/jaak-ai/jaak-japi/commit/aa9b7848b67e75660ae0d18b9872262894a28526))
+
 # [1.0.0-dev.2](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2022-09-06)
 
 
