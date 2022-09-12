@@ -1,3 +1,10 @@
+# [1.0.0-dev.5](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2022-09-12)
+
+
+### Bug Fixes
+
+* change type data of status code request ([bdcc44a](https://github.com/jaak-ai/jaak-japi/commit/bdcc44ab25a0356b0dadaf60680db8bccedaad7e))
+
 # [1.0.0-dev.4](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2022-09-12)
 
 
