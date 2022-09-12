@@ -13,6 +13,10 @@ type Tracer struct {
 	Flow        []*StepTracer  `bson:"flow" json:"flow"`
 }
 
+func (model *Tracer) SetAction(value string) {
+	model.Action = value
+}
+
 func (model *Tracer) SetRequest(value *RequestTracer) {
 	model.Request = value
 }

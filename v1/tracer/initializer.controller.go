@@ -1,9 +1,9 @@
 package tracer
 
-func New(action string) *Tracer {
+func New() *Tracer {
 	return &Tracer{
 		Request:     nil,
-		Action:      action,
+		Action:      "",
 		Status:      FailedStatusTracer,
 		Message:     "",
 		ProcessTime: 0,
