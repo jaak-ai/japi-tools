@@ -1,3 +1,10 @@
+# [1.0.0-dev.10](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.9...v1.0.0-dev.10) (2022-09-12)
+
+
+### Features
+
+* add middleware to bracer ([46cb180](https://github.com/jaak-ai/jaak-japi/commit/46cb180c662ac768bc6495a46f62b507f4848aa0))
+
 # [1.0.0-dev.9](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.8...v1.0.0-dev.9) (2022-09-12)
 
 
