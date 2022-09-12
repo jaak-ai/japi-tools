@@ -4,9 +4,9 @@ import (
 	"github.com/jaak-ai/jaak-japi/v1/tracer"
 )
 
-func New(action string) *Bracer {
+func New() *Bracer {
 	b := &Bracer{
-		Tracer: tracer.New(action),
+		Tracer: tracer.New(),
 	}
 	return b
 }
