@@ -9,7 +9,7 @@ type Tracer struct {
 	Action      string         `bson:"action" json:"action"`
 	Status      StatusTracer   `bson:"status" json:"status"`
 	Message     string         `bson:"message" json:"message"`
-	ProcessTime float32        `bson:"process_time" json:"processTime"`
+	ProcessTime float64        `bson:"process_time" json:"processTime"`
 	Flow        []*StepTracer  `bson:"flow" json:"flow"`
 }
 
@@ -29,7 +29,7 @@ func (model *Tracer) SetMessage(value string) {
 	model.Message = value
 }
 
-func (model *Tracer) SetProcessTime(value float32) {
+func (model *Tracer) SetProcessTime(value float64) {
 	model.ProcessTime = value
 }
 
