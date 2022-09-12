@@ -1,3 +1,10 @@
+# [1.0.0-dev.9](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.8...v1.0.0-dev.9) (2022-09-12)
+
+
+### Features
+
+* add method mapper method request ([f6dee73](https://github.com/jaak-ai/jaak-japi/commit/f6dee732f7e1b20f81bc6890d5c52337ce62299b))
+
 # [1.0.0-dev.8](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.7...v1.0.0-dev.8) (2022-09-12)
 
 
