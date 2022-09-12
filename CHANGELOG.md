@@ -1,3 +1,10 @@
+# [1.0.0-dev.6](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.5...v1.0.0-dev.6) (2022-09-12)
+
+
+### Features
+
+* add method set action ([f2a1f3e](https://github.com/jaak-ai/jaak-japi/commit/f2a1f3ec7435c3a504649ec31415c74a0ac95717))
+
 # [1.0.0-dev.5](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2022-09-12)
 
 
