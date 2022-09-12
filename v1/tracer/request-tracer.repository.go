@@ -4,7 +4,7 @@ type RequestTracer struct {
 	Ip         string              `bson:"ip" json:"ip"`
 	Method     MethodRequestTracer `bson:"method" json:"method"`
 	StatusCode int16               `bson:"status_code" json:"statusCode"`
-	Path       string              `bson:"status_code" json:"path"`
+	Path       string              `bson:"path" json:"path"`
 	Meta       *MetaRequestTracer  `bson:"meta" json:"meta"`
 }
 
