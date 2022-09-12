@@ -1,3 +1,10 @@
+# [1.0.0-dev.4](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2022-09-12)
+
+
+### Bug Fixes
+
+* change tag bson in path ([3f77c94](https://github.com/jaak-ai/jaak-japi/commit/3f77c947aa324b6f82733412a013fb81aac27fca))
+
 # [1.0.0-dev.3](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2022-09-06)
 
 
