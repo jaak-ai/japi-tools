@@ -3,7 +3,7 @@ package tracer
 type RequestTracer struct {
 	Ip         string              `bson:"ip" json:"ip"`
 	Method     MethodRequestTracer `bson:"method" json:"method"`
-	StatusCode int16               `bson:"status_code" json:"statusCode"`
+	StatusCode int                 `bson:"status_code" json:"statusCode"`
 	Path       string              `bson:"path" json:"path"`
 	Meta       *MetaRequestTracer  `bson:"meta" json:"meta"`
 }
@@ -16,7 +16,7 @@ func (model *RequestTracer) SetMethod(value MethodRequestTracer) {
 	model.Method = value
 }
 
-func (model *RequestTracer) SetStatusCode(value int16) {
+func (model *RequestTracer) SetStatusCode(value int) {
 	model.StatusCode = value
 }
 
