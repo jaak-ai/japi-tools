@@ -1,3 +1,10 @@
+# [1.0.0-dev.7](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.6...v1.0.0-dev.7) (2022-09-12)
+
+
+### Features
+
+* change type process time ([12c8b38](https://github.com/jaak-ai/jaak-japi/commit/12c8b388717a43e5b44edb0efc9138800d0c6fa6))
+
 # [1.0.0-dev.6](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.5...v1.0.0-dev.6) (2022-09-12)
 
 
