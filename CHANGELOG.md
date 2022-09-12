@@ -1,3 +1,10 @@
+# [1.0.0-dev.8](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.7...v1.0.0-dev.8) (2022-09-12)
+
+
+### Bug Fixes
+
+* new bracer method args ([8bc9c03](https://github.com/jaak-ai/jaak-japi/commit/8bc9c03c2aeb63443491607593edae2a202a2341))
+
 # [1.0.0-dev.7](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.6...v1.0.0-dev.7) (2022-09-12)
 
 
