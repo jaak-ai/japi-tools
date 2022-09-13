@@ -1,12 +1,22 @@
 package bracer
 
 import (
+	"encoding/json"
 	"github.com/gofiber/fiber/v2"
 	"github.com/jaak-ai/jaak-japi/v1/tracer"
 	"time"
 )
 
-func Middleware() fiber.Handler {
+func Middleware(optionsList ...OptionBracer) fiber.Handler {
+	option := OptionBracer{
+		IncludeRequest:  false,
+		IncludeResponse: false,
+	}
+
+	if len(optionsList) > 0 {
+		option = optionsList[0]
+	}
+
 	return func(ctx *fiber.Ctx) error {
 		start := time.Now()
 
@@ -15,7 +25,13 @@ func Middleware() fiber.Handler {
 			Ip:     ctx.IP(),
 			Method: tracer.MapperMethodRequest(ctx.Method()),
 			Path:   ctx.Path(),
+			Meta:   &tracer.MetaRequestTracer{},
 		})
+
+		if option.IncludeRequest {
+			bcr.Request.Meta.Request, _ = mapperBytesByJson(ctx.Request().Body())
+		}
+
 		ctx.Locals("bracer", bcr)
 
 		err := ctx.Next()
@@ -23,6 +39,10 @@ func Middleware() fiber.Handler {
 		end := time.Now()
 		duration := end.Sub(start)
 		bcr.ProcessTime = duration.Seconds()
+
+		if option.IncludeResponse {
+			bcr.Request.Meta.Response, _ = mapperBytesByJson(ctx.Response().Body())
+		}
 
 		if err != nil {
 			bcr.SetMessage(err.Error())
@@ -40,4 +60,15 @@ func Middleware() fiber.Handler {
 
 		return err
 	}
+}
+
+func mapperBytesByJson(b []byte) (map[string]interface{}, error) {
+	m := make(map[string]interface{})
+
+	err := json.Unmarshal(b, &m)
+	if err != nil {
+		return nil, err
+	}
+
+	return m, nil
 }
