@@ -1,3 +1,10 @@
+# [1.0.0-dev.11](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.10...v1.0.0-dev.11) (2022-09-13)
+
+
+### Features
+
+* add request and response to meta request ([4c25567](https://github.com/jaak-ai/jaak-japi/commit/4c25567ee9233c288beec716bdc30e813b87a916))
+
 # [1.0.0-dev.10](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.9...v1.0.0-dev.10) (2022-09-12)
 
 
