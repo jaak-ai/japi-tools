@@ -1,3 +1,10 @@
+# [1.0.0-dev.17](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.16...v1.0.0-dev.17) (2022-09-20)
+
+
+### Features
+
+* update dependencies ([68573f2](https://github.com/jaak-ai/jaak-japi/commit/68573f22b91fcffd9375c87740eb67194eab57f4))
+
 # [1.0.0-dev.16](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.15...v1.0.0-dev.16) (2022-09-20)
 
 
