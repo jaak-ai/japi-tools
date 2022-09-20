@@ -1,9 +1,9 @@
 package deco
 
 import (
-	"ai.jaak.nfury/modules/armor"
-	"ai.jaak.nfury/modules/transclude"
 	"github.com/gofiber/fiber/v2"
+	"github.com/jaak-ai/jaak-dabos/v1/transclude"
+	"github.com/jaak-ai/jaak-japi/v1/armor"
 )
 
 func Popali[T any](factory func() T, ctx *fiber.Ctx) (T, error) {
