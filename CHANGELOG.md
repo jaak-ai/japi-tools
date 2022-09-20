@@ -1,3 +1,10 @@
+# [1.0.0-dev.14](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.13...v1.0.0-dev.14) (2022-09-20)
+
+
+### Features
+
+* set Request-Id in header middleware.controller.go ([11631d2](https://github.com/jaak-ai/jaak-japi/commit/11631d29b1a754c36e0d30927003996fc0b41b5b))
+
 # [1.0.0-dev.13](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.12...v1.0.0-dev.13) (2022-09-20)
 
 
