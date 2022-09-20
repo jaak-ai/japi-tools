@@ -30,7 +30,7 @@ func Middleware(optionsList ...OptionBracer) fiber.Handler {
 			Meta:   &tracer.MetaRequestTracer{},
 		})
 
-		requestIdHeader := ctx.Get("request-id")
+		requestIdHeader := ctx.Get("Request-Id")
 		if requestIdHeader != "" {
 			bcr.Request.SetId(requestIdHeader)
 		}
