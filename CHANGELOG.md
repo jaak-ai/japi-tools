@@ -1,3 +1,10 @@
+# [1.0.0-dev.13](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.12...v1.0.0-dev.13) (2022-09-20)
+
+
+### Features
+
+* add field event id and request-id ([489f1bb](https://github.com/jaak-ai/jaak-japi/commit/489f1bbe4fd4bdb1fe012f71feb3e5d7c8456afc))
+
 # [1.0.0-dev.12](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.11...v1.0.0-dev.12) (2022-09-13)
 
 
