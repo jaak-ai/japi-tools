@@ -1,3 +1,10 @@
+# [1.0.0-dev.15](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.14...v1.0.0-dev.15) (2022-09-20)
+
+
+### Features
+
+* add modules ([16c1490](https://github.com/jaak-ai/jaak-japi/commit/16c14904adafbefe66b449f92da2d4fb827b1f50))
+
 # [1.0.0-dev.14](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.13...v1.0.0-dev.14) (2022-09-20)
 
 
