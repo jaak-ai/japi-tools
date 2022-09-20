@@ -3,6 +3,7 @@ package bracer
 import (
 	"encoding/json"
 	"github.com/gofiber/fiber/v2"
+	"github.com/google/uuid"
 	"github.com/jaak-ai/jaak-japi/v1/tracer"
 	"time"
 )
@@ -21,12 +22,18 @@ func Middleware(optionsList ...OptionBracer) fiber.Handler {
 		start := time.Now()
 
 		bcr := New()
+		bcr.SetEventId(uuid.New().String())
 		bcr.SetRequest(&tracer.RequestTracer{
 			Ip:     ctx.IP(),
 			Method: tracer.MapperMethodRequest(ctx.Method()),
 			Path:   ctx.Path(),
 			Meta:   &tracer.MetaRequestTracer{},
 		})
+
+		requestIdHeader := ctx.Get("request-id")
+		if requestIdHeader != "" {
+			bcr.Request.SetId(requestIdHeader)
+		}
 
 		if option.IncludeRequest {
 			bcr.Request.Meta.Request, _ = mapperBytesByJson(ctx.Request().Body())

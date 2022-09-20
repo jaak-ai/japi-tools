@@ -1,11 +1,16 @@
 package tracer
 
 type RequestTracer struct {
+	Id         string              `bson:"id" json:"id"`
 	Ip         string              `bson:"ip" json:"ip"`
 	Method     MethodRequestTracer `bson:"method" json:"method"`
 	StatusCode int                 `bson:"status_code" json:"statusCode"`
 	Path       string              `bson:"path" json:"path"`
 	Meta       *MetaRequestTracer  `bson:"meta" json:"meta"`
+}
+
+func (model *RequestTracer) SetId(value string) {
+	model.Id = value
 }
 
 func (model *RequestTracer) SetIp(value string) {

@@ -5,12 +5,17 @@ import (
 )
 
 type Tracer struct {
+	EventId     string         `bson:"event_id" json:"eventId"`
 	Request     *RequestTracer `bson:"request" json:"request"`
 	Action      string         `bson:"action" json:"action"`
 	Status      StatusTracer   `bson:"status" json:"status"`
 	Message     string         `bson:"message" json:"message"`
 	ProcessTime float64        `bson:"process_time" json:"processTime"`
 	Flow        []*StepTracer  `bson:"flow" json:"flow"`
+}
+
+func (model *Tracer) SetEventId(value string) {
+	model.EventId = value
 }
 
 func (model *Tracer) SetAction(value string) {

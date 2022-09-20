@@ -8,6 +8,7 @@ require (
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gofiber/fiber/v2 v2.37.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/jaak-ai/jaak-dabos v1.0.0-dev.2 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/kamva/mgm/v3 v3.4.1 // indirect
