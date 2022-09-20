@@ -42,6 +42,8 @@ github.com/jaak-ai/jaak-dabos v1.0.0-dev.1 h1:a0nOeIyF3285WrPBw/6Qo8AABTrWe0DN/l
 github.com/jaak-ai/jaak-dabos v1.0.0-dev.1/go.mod h1:jXTxPI1zqLdVKBBja92QH+sWshPsD3rzA7od308jB7c=
 github.com/jaak-ai/jaak-dabos v1.0.0-dev.2 h1:muZwo+ihnpWZejEXFzamavxAPcFh2smSLwuKCuTVMuE=
 github.com/jaak-ai/jaak-dabos v1.0.0-dev.2/go.mod h1:89wavaRcSyn2vN2FNZShg2Vem/f9Pm7tjo7vDjSSvlI=
+github.com/jaak-ai/jaak-dabos v1.0.0-dev.3 h1:nnZ29mb1vKdXwoDX++VXwbBvRuaO7mlRfYrA9zVXur4=
+github.com/jaak-ai/jaak-dabos v1.0.0-dev.3/go.mod h1:89wavaRcSyn2vN2FNZShg2Vem/f9Pm7tjo7vDjSSvlI=
 github.com/jinzhu/inflection v1.0.0 h1:K317FqzuhWc8YvSVlFMCCUb36O/S9MCKRDI7QkRKD/E=
 github.com/jinzhu/inflection v1.0.0/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkryuEj+Srlc=
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
