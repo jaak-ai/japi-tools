@@ -1,14 +1,9 @@
 package tracer
 
-type MetaRequestTracer struct {
-	Request  interface{} `bson:"request" json:"request"`
-	Response interface{} `bson:"response" json:"response"`
+type MetaTracer struct {
+	Extra interface{} `bson:"extra" json:"extra"`
 }
 
-func (model *MetaRequestTracer) SetRequest(value interface{}) {
-	model.Request = value
-}
-
-func (model *MetaRequestTracer) SetResponse(value interface{}) {
-	model.Response = value
+func (model *MetaTracer) SeExtra(value interface{}) {
+	model.Extra = value
 }

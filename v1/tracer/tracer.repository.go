@@ -12,6 +12,7 @@ type Tracer struct {
 	Message     string         `bson:"message" json:"message"`
 	ProcessTime float64        `bson:"process_time" json:"processTime"`
 	Flow        []*StepTracer  `bson:"flow" json:"flow"`
+	Meta        *MetaTracer    `bson:"meta" json:"meta"`
 }
 
 func (model *Tracer) SetEventId(value string) {
