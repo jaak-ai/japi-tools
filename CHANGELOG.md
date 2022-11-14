@@ -1,3 +1,10 @@
+# [1.0.0-dev.18](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.17...v1.0.0-dev.18) (2022-09-23)
+
+
+### Features
+
+* add meta to tracer ([0ebbbbb](https://github.com/jaak-ai/jaak-japi/commit/0ebbbbb2d043fc9e55fdc0d91591f7969ae81c3f))
+
 # [1.0.0-dev.17](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.16...v1.0.0-dev.17) (2022-09-20)
 
 
