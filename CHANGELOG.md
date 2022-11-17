@@ -1,3 +1,10 @@
+# [1.0.0-dev.20](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.19...v1.0.0-dev.20) (2022-11-17)
+
+
+### Features
+
+* add property code to tracer ([314bd72](https://github.com/jaak-ai/jaak-japi/commit/314bd7250dba7a30c73c24a1d1ad749aa486b2ff))
+
 # [1.0.0-dev.19](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.18...v1.0.0-dev.19) (2022-11-14)
 
 
