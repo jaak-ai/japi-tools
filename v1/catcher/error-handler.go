@@ -6,21 +6,25 @@ import (
 
 func New() fiber.ErrorHandler {
 	return func(context *fiber.Ctx, err error) error {
-		//tracerI := context.Locals("tracer.enum")
-		//if tracerI != nil {
-		//	tracer := tracerI.(repository.TracerRepository)
-		//	_ = mgm.Coll(&tracer).Create(&tracer)
-		//}
 
-		code := fiber.StatusInternalServerError
-
-		if e, ok := err.(*fiber.Error); ok {
-			code = e.Code
+		errorCatcher, ok := err.(*Error)
+		if ok {
+			return context.Status(errorCatcher.Status).JSON(err)
 		}
 
-		return context.Status(code).JSON(HTTPError{
-			Status:  code,
-			Message: err.Error(),
-		})
+		errorFiber, ok := err.(*fiber.Error)
+		if ok {
+			return context.Status(errorFiber.Code).JSON(Error{
+				Status:  errorFiber.Code,
+				Message: err.Error(),
+			})
+		}
+
+		return context.
+			Status(fiber.StatusInternalServerError).
+			JSON(Error{
+				Status:  fiber.StatusInternalServerError,
+				Message: err.Error(),
+			})
 	}
 }
