@@ -10,6 +10,7 @@ type Tracer struct {
 	Action      string         `bson:"action" json:"action"`
 	Status      StatusTracer   `bson:"status" json:"status"`
 	Message     string         `bson:"message" json:"message"`
+	Code        int32          `bson:"code" json:"code"`
 	ProcessTime float64        `bson:"process_time" json:"processTime"`
 	Flow        []*StepTracer  `bson:"flow" json:"flow"`
 	Meta        *MetaTracer    `bson:"meta" json:"meta"`
