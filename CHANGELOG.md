@@ -1,3 +1,10 @@
+# [1.0.0-dev.21](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.20...v1.0.0-dev.21) (2022-11-17)
+
+
+### Features
+
+* create new error of catcher ([f435954](https://github.com/jaak-ai/jaak-japi/commit/f4359544ff21982b722ed2c87f070f76c8e31e3f))
+
 # [1.0.0-dev.20](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.19...v1.0.0-dev.20) (2022-11-17)
 
 
