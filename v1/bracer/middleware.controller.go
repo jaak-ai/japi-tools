@@ -45,7 +45,7 @@ func Middleware(optionsList ...OptionBracer) fiber.Handler {
 
 		end := time.Now()
 		duration := end.Sub(start)
-		bcr.ProcessTime = duration.Seconds()
+		bcr.ProcessTime = float64(duration.Milliseconds())
 
 		if option.IncludeResponse {
 			bcr.Request.Meta.Response, _ = mapperBytesByJson(ctx.Response().Body())
