@@ -1,3 +1,10 @@
+# [1.0.0-dev.23](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.22...v1.0.0-dev.23) (2022-12-15)
+
+
+### Features
+
+* change save bracer method ([7d9131d](https://github.com/jaak-ai/jaak-japi/commit/7d9131dd91c34fc5d8dd55d072af9858ba86d029))
+
 # [1.0.0-dev.22](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.21...v1.0.0-dev.22) (2022-11-23)
 
 
