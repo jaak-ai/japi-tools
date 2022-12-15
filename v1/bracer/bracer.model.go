@@ -15,5 +15,9 @@ func (model *Bracer) CollectionName() string {
 }
 
 func (model *Bracer) Save() error {
-	return mgm.Coll(model).Create(model)
+	if model.ID.IsZero() {
+		return mgm.Coll(model).Create(model)
+	} else {
+		return mgm.Coll(model).Update(model)
+	}
 }
