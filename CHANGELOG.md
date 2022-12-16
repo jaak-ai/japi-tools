@@ -1,3 +1,10 @@
+# [1.0.0-dev.25](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.24...v1.0.0-dev.25) (2022-12-16)
+
+
+### Features
+
+* add status to status tracer ([566db1c](https://github.com/jaak-ai/jaak-japi/commit/566db1c140058f50953d56db331b6aabb73e48cd))
+
 # [1.0.0-dev.24](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.23...v1.0.0-dev.24) (2022-12-15)
 
 
