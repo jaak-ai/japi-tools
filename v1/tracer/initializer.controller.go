@@ -4,7 +4,7 @@ func New() *Tracer {
 	return &Tracer{
 		Request:     nil,
 		Action:      "",
-		Status:      FailedStatusTracer,
+		Status:      UnprocessedStatusTracer,
 		Message:     "",
 		ProcessTime: 0,
 		Flow:        nil,
