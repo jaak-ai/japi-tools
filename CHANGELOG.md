@@ -1,3 +1,10 @@
+# [1.0.0-dev.24](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.23...v1.0.0-dev.24) (2022-12-15)
+
+
+### Features
+
+* add mutex in bracer model ([247d739](https://github.com/jaak-ai/jaak-japi/commit/247d739c99bb29ad147df693fc464032ba1f40ba))
+
 # [1.0.0-dev.23](https://github.com/jaak-ai/jaak-japi/compare/v1.0.0-dev.22...v1.0.0-dev.23) (2022-12-15)
 
 
